@@ -1,0 +1,45 @@
+.mainBlogsContainer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    /* background-color: greenyellow;
+    
+    height: 400px; */
+}
+
+.blogContainer {
+    height: 200px;
+    width: 60%;
+    background-color: greenyellow;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.deleteButton {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+
+.deleteButton:hover {
+    align-self: flex-end;
+    cursor: pointer;
+    margin-top: auto;
+    margin-right: 10px;
+    border-radius: 6px;
+}
